@@ -18,7 +18,7 @@ SECRET_KEY = config('SECRET_KEY', default='S#perS3crEt_1122')
 DEBUG = config('DEBUG', default=True, cast=bool)
 
 # load production server from .env
-ALLOWED_HOSTS = ['myapp-django.vercel.app', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['web-production-f2a7.up.railway.app', '127.0.0.1', 'localhost']
 
 
 # Application definition
